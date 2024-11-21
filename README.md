@@ -1,49 +1,30 @@
-# Evaluador de Expresiones Matemáticas
+# Evaluador de Expresiones Matemáticas con Pila
+
+Este proyecto implementa un **Tipo Abstracto de Datos (TDA) Pila** para evaluar expresiones matemáticas en **notación infija**. La aplicación recibe una expresión matemática como entrada, la procesa respetando las reglas de precedencia de operadores y paréntesis, y devuelve el resultado calculado.
 
 ## Descripción
 
-Este proyecto implementa un evaluador de expresiones matemáticas en notación infija utilizando una pila. El evaluador soporta operaciones de adición, resta, multiplicación, y división, incluyendo el uso de paréntesis para alterar el orden de las operaciones.
+El evaluador toma una expresión matemática en notación infija, como `3 + 5 * (2 - 8)`, y evalúa su resultado utilizando una pila para gestionar los operadores y operandos. La pila permite manejar de manera eficiente la precedencia de operadores y los paréntesis dentro de la expresión.
 
-## Estructura del Proyecto
+## Objetivos del Proyecto
 
+1. **Implementar un TDA Pila**: Mostrar cómo se puede usar una pila para evaluar expresiones matemáticas.
+2. **Aplicar Precedencia de Operadores**: Implementar las reglas de precedencia y asociatividad de los operadores matemáticos.
+3. **Evaluación de Expresiones**: Evaluar correctamente expresiones con números, operadores, y paréntesis.
+4. **Demostrar el Uso del TDA**: Usar el TDA pila de manera efectiva para almacenar operadores y operandos durante la evaluación.
 
-## Instrucciones para ejecutar
+## Requisitos
 
-1. Clona el repositorio:
-2. Navega al directorio del proyecto:
-3. Instala las dependencias necesarias (si es necesario):
-4. Ejecuta el script para probar el evaluador:
+- **Python 3.6+**: El proyecto está implementado en Python, por lo que es necesario tener instalada la versión 3.6 o superior.
+- No se requieren dependencias adicionales externas.
 
-## Ejemplo de uso
+## Instalación
 
-```python
-expresion = "3 + 5 * (2 - 8)"
-resultado = evaluar_expresion(expresion)
-print(f"El resultado de la expresión '{expresion}' es: {resultado}")
+### Clonar el Repositorio
 
+1. Clona este repositorio en tu máquina local utilizando Git:
 
---
+   ```bash
+   git clone https://github.com/fredyuide/evaluador_de_expresiones.git
+   cd evaluador_de_expresiones
 
-python -m unittest tests/test_evaluador.py
-
-
----
-
-### Paso 5: **Publicación en GitHub**
-
-1. Crea un nuevo repositorio en GitHub con el nombre `evaluador_de_expresiones`.
-2. Sube el código fuente, el archivo `README.md`, y las pruebas al repositorio.
-3. Asegúrate de tener un historial de commits adecuado y bien estructurado. Usa mensajes claros y significativos al hacer commits.
-
----
-
-### Paso 6: **Pruebas y Validación**
-
-Realiza pruebas adicionales para cubrir diferentes escenarios de expresiones. Aquí hay algunos ejemplos de expresiones a probar:
-- `"10 + 2 * 6"` → `22`
-- `"100 * 2 + 12"` → `212`
-- `"3 + 5 * (2 - 8)"` → `-13`
-
----
-
-Con esta estructura organizada y profesional, tu proyecto estará bien documentado y fácil de entender para cualquier persona que lo vea o lo use.
