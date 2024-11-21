@@ -42,7 +42,7 @@ print(f"El resultado de la expresión '{expresion}' es: {resultado}")
 
 Salida esperada: El resultado de la expresión '3 + 5 * (2 - 8)' es: -13
 
-Expresiones válidas
+### Expresiones válidas
 La aplicación soporta expresiones en notación infija y maneja correctamente los paréntesis y operadores con diferentes niveles de precedencia.
 
 Ejemplos de expresiones válidas:
@@ -50,7 +50,8 @@ Ejemplos de expresiones válidas:
 3 + (2 - 8)
 (1 + 2) * (3 - 4)
 5 * (6 + 7) / 8
-Descripción de la Función evaluar_expresion
+
+### Descripción de la Función evaluar_expresion
 La función evaluar_expresion es la encargada de recibir la expresión, procesarla, y devolver el resultado. A continuación, se explica cómo funciona la evaluación:
 
 Se eliminan los espacios en blanco de la expresión para simplificar el procesamiento.
@@ -63,7 +64,7 @@ def evaluar_expresion(expresion):
     pass
 
 
-Implementación
+### Implementación
 1. TDA Pila
 La pila en este proyecto es implementada utilizando una lista de Python. A continuación se presentan las funciones básicas que soporta:
 
@@ -88,7 +89,7 @@ class Pila:
         return len(self.items) == 0
 
 
-2. Evaluador de Expresiones
+### 2. Evaluador de Expresiones
 La función evaluar_expresion recorre la expresión, manejando operadores y operandos, y utiliza la pila para aplicar las reglas de precedencia de operadores.
 
 Pasos del algoritmo de evaluación:
