@@ -28,7 +28,7 @@ El evaluador toma una expresión matemática en notación infija, como `3 + 5 * 
    git clone https://github.com/fredyuide/evaluador_de_expresiones.git
    cd evaluador_de_expresiones
 
-Uso
+### Uso
 Evaluar Expresiones Matemáticas
 Para usar la aplicación, puedes llamar a la función principal evaluar_expresion(expresion) que toma una cadena de texto (la expresión matemática) y devuelve el resultado calculado.
 
