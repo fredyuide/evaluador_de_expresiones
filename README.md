@@ -22,6 +22,11 @@ resultado = evaluar_expresion(expresion)
 print(f"El resultado de la expresión '{expresion}' es: {resultado}")
 
 
+--
+
+python -m unittest tests/test_evaluador.py
+
+
 ---
 
 ### Paso 5: **Publicación en GitHub**
